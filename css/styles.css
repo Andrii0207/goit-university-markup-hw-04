@@ -12,6 +12,7 @@
   --slate-color: #434455;
   --cornflower-color: #e7e9fc;
   --cloud-color: #f4f4fd;
+  --lightslate-color: #8e8f99;
 }
 
 /* ======= /VARIABLES ======= */
@@ -232,6 +233,17 @@ button {
   padding: 120px 0;
 }
 
+.benefits-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: var(--cloud-color);
+}
+
 .benefits-item-title {
   margin-bottom: 8px;
   color: var(--navyblue-color);
@@ -354,6 +366,45 @@ button {
 }
 
 /* ======= /OUR TEAM ======= */
+
+/* ======= CUSTOMERS ======= */
+
+.customers-wrapper {
+  padding: 60px 0;
+}
+
+.customers-title {
+  margin-bottom: 72px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue-color);
+}
+
+.customers-list-icon {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate-color);
+}
+
+.customers-icon {
+  fill: var(--lightslate-color);
+}
+
+/* ======= /CUSTOMERS ======= */
 
 /* ======= PORTFOLIO ======= */
 
